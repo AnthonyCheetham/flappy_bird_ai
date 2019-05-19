@@ -11,7 +11,7 @@ if __name__ == '__main__':
     display_surface = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
     images = load_images()
 
-    flappy_bird_AI = ai.AI(Q_FNAME,silent=True)
+    flappy_bird_AI = ai.AI(silent=True)
 
     score = main_loop(flappy_bird_AI,silent=True,display=True,display_surface=display_surface,images=images)
 

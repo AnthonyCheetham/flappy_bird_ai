@@ -13,7 +13,7 @@ if __name__ == '__main__':
     display_surface = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
     images = load_images()
 
-    flappy_bird_AI = ai.AI(Q_FNAME,silent=True)
+    flappy_bird_AI = ai.AI(silent=True)
     print('Training AI with {0} iterations'.format(repeats))
 
     for ix in range(repeats):

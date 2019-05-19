@@ -16,7 +16,6 @@ FPS = 30
 ANIMATION_SPEED = 0.18  # pixels per millisecond
 WIN_WIDTH = 284 * 2     # BG image size: 284x512 px; tiled twice
 WIN_HEIGHT = 512
-Q_FNAME='/Users/cheetham/code/data_science/flappy_bird_ai/flappy-bird-pygame/qtable.npy'
 
 class Bird(pygame.sprite.Sprite):
     """Represents the bird controlled by the player.

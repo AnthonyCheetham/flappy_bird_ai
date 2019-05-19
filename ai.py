@@ -7,7 +7,7 @@ class AI(object):
         - learn_rate
 
     """
-    def __init__(self,Q_FNAME,learn_rate=0.4,discount=0.5,gamble_chance=0.0,silent=True):
+    def __init__(self,Q_FNAME='qtable.npy',learn_rate=0.4,discount=0.5,gamble_chance=0.0,silent=True):
         # The discretisation of the (X,Y) grid:
         self.nres_x = 80
         self.nres_y = 160
