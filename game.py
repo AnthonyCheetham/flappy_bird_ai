@@ -320,7 +320,7 @@ def main_loop(flappy_bird_AI,silent=False,gamble_chance=0,display=True,display_s
         images = load_images()
 
     if display:
-        pygame.display.set_caption('Pygame Test')
+        pygame.display.set_caption('Flappy Bird AI')
         score_font = pygame.font.SysFont("Times New Roman", 32, bold=True)  # default font
         clock = pygame.time.Clock()
 
